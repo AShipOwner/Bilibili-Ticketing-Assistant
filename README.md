@@ -15,9 +15,9 @@ B 站会员购抢票助手 —— Android 正式版安装包发布仓库。
 
 | 版本 | versionCode | 直接下载 |
 |---|---|---|
-| Alpha5 | 10 | <https://github.com/BuShiLiNB/Bilibili-Ticketing-Assistant/releases/download/v10/Alpha5.apk> |
-| Alpha4 | 8 | <https://github.com/BuShiLiNB/Bilibili-Ticketing-Assistant/releases/download/v8/Alpha4.apk> |
-| Alpha3 | 6 | <https://github.com/BuShiLiNB/Bilibili-Ticketing-Assistant/releases/download/v6/Alpha3.apk> |
+| Alpha5 | 10 | <https://github.com/AShipOwner/Bilibili-Ticketing-Assistant/releases/download/v10/Alpha5.apk> |
+| Alpha4 | 8 | <https://github.com/AShipOwner/Bilibili-Ticketing-Assistant/releases/download/v8/Alpha4.apk> |
+| Alpha3 | 6 | <https://github.com/AShipOwner/Bilibili-Ticketing-Assistant/releases/download/v6/Alpha3.apk> |
 
 ## 安装包校验
 
