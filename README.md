@@ -39,13 +39,3 @@ sha256sum Alpha5.apk
 1. 下载 APK 后在手机上打开，系统会提示「允许安装未知来源应用」，允许即可。
 2. 从旧版本升级可直接覆盖安装，登录状态与本地数据保留。
 3. 仅需 arm64-v8a 机型（近年绝大多数安卓手机），Android 8.0+。
-
-## 发布流程（维护者）
-
-```powershell
-powershell -File scriptsuild-release.ps1            # 构建并生成 release-manifest.json
-powershell -File scripts\publish-apk-github.ps1       # 上传 GitHub Release + 写云控更新通道
-```
-
-发布脚本会先校验 `release-manifest.json` 的 `apkSHA256` 与待上传文件一致，
-再验证匿名 HEAD 能取回完整字节数，最后才注册云控 —— 避免出现「公告一个版本、实际发另一个版本」。
